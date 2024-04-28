@@ -1,0 +1,17 @@
+{
+    "name": "LTA.Sounds",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern",
+        "LTA.Data"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

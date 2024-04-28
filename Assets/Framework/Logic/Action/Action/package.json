@@ -1,0 +1,13 @@
+{
+    "name": "lta.action",
+    "displayName": "LTA Base Action",
+    "version": "1.0.0",
+    "description": "LTA Base Action",
+    "dependencies": {
+        "lta.basevo": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.0",
+        "lta.condition": "1.0.0",
+        "lta.handle": "1.0.0"
+    }
+}

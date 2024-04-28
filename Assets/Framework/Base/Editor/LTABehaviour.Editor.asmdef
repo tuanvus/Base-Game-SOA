@@ -1,0 +1,18 @@
+{
+    "name": "LTABehaviour.Editor",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Base"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

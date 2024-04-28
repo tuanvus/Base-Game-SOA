@@ -1,0 +1,34 @@
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+[System.Serializable]
+public class #SCRIPTNAMEINFO#
+{
+    
+}
+
+[ComponentType(typeof(#SCRIPTNAME#),typeof(#SCRIPTNAMEINFO#),"#SCRIPTNAME#")]
+public class #SCRIPTNAME# : MonoBehaviour,ISetInfo
+{
+    #SCRIPTNAMEINFO# info;
+
+    public object Info
+    {
+        set
+        {
+            info = (#SCRIPTNAMEINFO#)value;
+        }
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        #NOTRIM#
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#

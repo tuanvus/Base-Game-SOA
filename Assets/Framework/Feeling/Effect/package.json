@@ -1,0 +1,9 @@
+{
+    "name": "lta.effect",
+    "displayName": "LTA Effect",
+    "version": "1.0.0",
+    "description": "LTA Effect",
+    "dependencies": {
+        "lta.tween": "1.0.0"
+    }
+}

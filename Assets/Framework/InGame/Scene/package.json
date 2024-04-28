@@ -1,0 +1,10 @@
+{
+    "name": "lta.scene",
+    "displayName": "LTA Scene",
+    "version": "1.0.0",
+    "description": "LTA Scene",
+    "dependencies": {
+        "lta.designpattern": "1.0.0",
+        "lta.popup": "1.0.0"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "LTA.Slot",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Touch",
+        "LTA.DesignPattern",
+        "LTA.Base",
+        "LTA.DragMove",
+        "LTA.Effect",
+        "LTA.TapSelect",
+        "LTA.Tween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

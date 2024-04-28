@@ -1,0 +1,17 @@
+{
+    "name": "LTA.Component",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Data",
+        "LTA.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

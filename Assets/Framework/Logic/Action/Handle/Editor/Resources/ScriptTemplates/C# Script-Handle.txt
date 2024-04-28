@@ -1,0 +1,27 @@
+using UnityEngine;
+using LTA.Handle;
+using System;
+
+#ROOTNAMESPACEBEGIN#
+[ComponentType(typeof(#SCRIPTNAME#),"#SCRIPTNAME#","handles")]
+public class #SCRIPTNAME# : MonoBehaviour,IHandle
+{
+    Action<IHandle> endHandle;
+
+    public Action<IHandle> EndHandle { 
+        set => endHandle = value;
+    }
+
+    public void Handle()
+    {
+        
+    }
+
+    void OnEndHandle() {
+        if (endHandle != null)
+        {
+            endHandle(this);
+        }
+    }
+}
+#ROOTNAMESPACEEND#

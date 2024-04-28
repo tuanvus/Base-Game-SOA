@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "bestTargets" : [
+                {
+                    "componentName": "Best Target Name",
+                    "data": 
+                    {
+                        
+                    }
+                }
+            ],
+            "targets" : [
+                {
+                    "componentName": "Target Name",
+                    "data": 
+                    {
+                        
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "lta.popup",
+    "displayName": "LTA Popup",
+    "version": "1.0.0",
+    "description": "LTA Popup",
+    "dependencies": {
+        "lta.tween": "1.0.0",
+        "lta.ui": "1.0.1",
+        "lta.designpattern": "1.0.0",
+        "lta.effect": "1.0.0",
+        "lta.data":"1.0.0"
+    }
+}

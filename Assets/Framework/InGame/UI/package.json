@@ -1,0 +1,12 @@
+{
+    "name": "lta.ui",
+    "displayName": "LTA UI",
+    "version": "1.0.1",
+    "description": "LTA UI",
+    "dependencies": {
+        "lta.tween": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6",
+        "lta.designpattern": "1.0.0",
+        "lta.effect": "1.0.0"
+    }
+}

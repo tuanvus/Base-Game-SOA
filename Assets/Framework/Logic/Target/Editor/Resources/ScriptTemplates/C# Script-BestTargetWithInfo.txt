@@ -1,0 +1,29 @@
+using UnityEngine;
+using LTA.Target;
+
+#ROOTNAMESPACEBEGIN#
+[System.Serializable]
+public class #SCRIPTNAMEINFO#
+{
+    
+}
+
+[ComponentType(typeof(#SCRIPTNAME#),typeof(#SCRIPTNAMEINFO#),"#SCRIPTNAME#")]
+public class #SCRIPTNAME# : MonoBehaviour,ICheckBestTarget,ISetInfo
+{
+    #SCRIPTNAMEINFO# info;
+
+    public object Info
+    {
+        set
+        {
+            info = (#SCRIPTNAMEINFO#)value;
+        }
+    }
+    
+    public bool CheckTarget(Transform target1, Transform target2)
+    {
+        return true;
+    }
+}
+#ROOTNAMESPACEEND#

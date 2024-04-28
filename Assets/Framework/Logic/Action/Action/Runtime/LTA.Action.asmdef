@@ -1,0 +1,21 @@
+{
+    "name": "LTA.Action",
+    "rootNamespace": "",
+    "references": [
+        "LTA.NonEntity",
+        "LTA.Condition",
+        "LTA.Handle",
+        "LTA.Base",
+        "LTA.Data",
+        "LTA.Component"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

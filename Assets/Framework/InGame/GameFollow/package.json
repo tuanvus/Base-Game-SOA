@@ -1,0 +1,9 @@
+{
+  "name": "lta.gamefollow",
+  "displayName": "LTA Game Follow",
+  "version": "1.0.0",
+  "description": "LTA Game Follow",
+  "dependencies": {
+    "lta.designpattern": "1.0.0"
+  }
+}

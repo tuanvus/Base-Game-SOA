@@ -1,0 +1,19 @@
+{
+    "name": "LTA.DragMerge",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Tween",
+        "LTA.Base",
+        "LTA.DragMove",
+        "LTA.Merge"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

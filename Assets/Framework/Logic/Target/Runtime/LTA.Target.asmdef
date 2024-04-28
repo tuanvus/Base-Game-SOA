@@ -1,0 +1,19 @@
+{
+    "name": "LTA.Target",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern",
+        "LTA.NonEntity",
+        "LTA.Data",
+        "LTA.Component"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

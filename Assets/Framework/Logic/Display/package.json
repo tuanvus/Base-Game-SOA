@@ -1,0 +1,14 @@
+{
+    "name": "lta.display",
+    "displayName": "LTA Display",
+    "version": "1.0.0",
+    "description": "LTA Display",
+    "dependencies": {
+        "lta.data": "1.0.0",
+        "lta.basevo": "1.0.0",
+        "lta.basecharacter": "1.0.1",
+        "lta.nonentity": "1.0.2",
+        "lta.handsome.base": "1.0.3",
+        "lta.unitycharacter":"1.0.0"
+    }
+}

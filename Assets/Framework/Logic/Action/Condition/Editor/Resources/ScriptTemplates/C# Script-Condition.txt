@@ -1,0 +1,31 @@
+using UnityEngine;
+using LTA.Condition;
+using System;
+
+#ROOTNAMESPACEBEGIN#
+[ComponentType(typeof(#SCRIPTNAME#),"#SCRIPTNAME#","conditions")]
+public class #SCRIPTNAME# : MonoBehaviour,ICondition
+{
+    Action<ICondition> suitableCondition;
+
+    protected bool isSuitable = false;
+
+    public bool IsSuitable {
+        get
+        {
+            return isSuitable;
+        }
+        private set
+        {
+            if (isSuitable == value) return;
+            isSuitable = value;
+            if (suitableCondition != null)
+            {
+                suitableCondition(this);
+            }
+        }
+    }
+
+    public Action<ICondition> SuitableCondition { set => suitableCondition = value; }
+}
+#ROOTNAMESPACEEND#

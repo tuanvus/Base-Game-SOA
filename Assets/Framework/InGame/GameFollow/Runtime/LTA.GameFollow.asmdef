@@ -1,0 +1,16 @@
+{
+    "name": "LTA.GameFollow",
+    "rootNamespace": "",
+    "references": [
+        "LTA.DesignPattern"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

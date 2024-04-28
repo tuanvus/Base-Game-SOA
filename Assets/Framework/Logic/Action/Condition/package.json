@@ -1,0 +1,9 @@
+{
+    "name": "lta.condition",
+    "displayName": "LTA Condition",
+    "version": "1.0.0",
+    "description": "LTA Condition",
+    "dependencies": {
+        "lta.basevo": "1.0.0"
+    }
+}

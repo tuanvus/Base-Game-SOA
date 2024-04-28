@@ -1,0 +1,20 @@
+using UnityEngine;
+using LTA.NonEntity;
+
+#ROOTNAMESPACEBEGIN#
+[ComponentType(typeof(#SCRIPTNAME#),"#SCRIPTNAME#","NonEntities")]
+public class #SCRIPTNAME# : NonEntityController
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        #NOTRIM#
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#

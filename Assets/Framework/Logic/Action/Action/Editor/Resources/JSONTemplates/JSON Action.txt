@@ -1,0 +1,24 @@
+{
+    "data":[
+        {
+            "conditions" : [
+                {
+                    "componentName": "Condition Name",
+                    "data": 
+                    {
+                        
+                    }
+                }
+            ],
+            "handles" : [
+                {
+                    "componentName": "Handle Name",
+                    "data": 
+                    {
+                        
+                    }
+                }
+            ]
+        }
+    ]
+}

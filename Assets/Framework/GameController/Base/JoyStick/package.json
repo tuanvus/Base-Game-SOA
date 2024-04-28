@@ -1,0 +1,10 @@
+{
+    "name": "lta.joystick",
+    "displayName": "LTA JoyStick",
+    "version": "1.0.1",
+    "description": "LTA JoyStick",
+    "dependencies": {
+        "lta.handsome.base": "1.0.1",
+        "lta.effect": "1.0.0"
+    }
+}

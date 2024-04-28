@@ -1,0 +1,11 @@
+{
+    "name": "lta.dragmove",
+    "displayName": "LTA Drag Move",
+    "version": "1.0.0",
+    "description": "LTA Drag Move",
+    "dependencies": {
+        "lta.touch": "1.0.0",
+        "lta.handsome.base": "1.0.1",
+        "lta.designpattern": "1.0.0"
+    }
+}

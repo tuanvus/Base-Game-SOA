@@ -1,0 +1,19 @@
+{
+    "name": "LTA.DragMove",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Touch",
+        "LTA.Base",
+        "LTA.Effect",
+        "LTA.Tween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

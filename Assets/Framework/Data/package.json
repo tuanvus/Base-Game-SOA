@@ -1,0 +1,9 @@
+{
+    "name": "lta.data",
+    "displayName": "LTA Data",
+    "version": "1.0.0",
+    "description": "LTA Data",
+    "dependencies": {
+        "lta.base": "1.0.0"
+    }
+}

@@ -1,0 +1,13 @@
+using LTA.Target;
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+[ComponentType(typeof(#SCRIPTNAME#),"#SCRIPTNAME#")]
+public class #SCRIPTNAME# : MonoBehaviour,ICheckTarget
+{
+    public bool CheckTarget(Transform target)
+    {
+        return true;
+    }
+}
+#ROOTNAMESPACEEND#

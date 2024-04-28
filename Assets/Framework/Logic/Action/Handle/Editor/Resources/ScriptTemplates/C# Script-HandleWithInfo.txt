@@ -1,0 +1,43 @@
+using UnityEngine;
+using LTA.Handle;
+using System;
+
+#ROOTNAMESPACEBEGIN#
+[System.Serializable]
+public class #SCRIPTNAMEINFO#
+{
+    
+}
+
+[ComponentType(typeof(#SCRIPTNAME#),typeof(#SCRIPTNAMEINFO#),"#SCRIPTNAME#","handles")]
+public class #SCRIPTNAME# : MonoBehaviour,IHandle,ISetInfo
+{
+    #SCRIPTNAMEINFO# info;
+
+    public object Info
+    {
+        set
+        {
+            info = (#SCRIPTNAMEINFO#)value;
+        }
+    }
+
+    Action<IHandle> endHandle;
+
+    public Action<IHandle> EndHandle { 
+        set => endHandle = value;
+    }
+
+    public void Handle()
+    {
+        
+    }
+
+    void OnEndHandle() {
+        if (endHandle != null)
+        {
+            endHandle(this);
+        }
+    }
+}
+#ROOTNAMESPACEEND#

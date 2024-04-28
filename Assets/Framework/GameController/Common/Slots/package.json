@@ -1,0 +1,13 @@
+{
+    "name": "lta.slot",
+    "displayName": "LTA Slot",
+    "version": "1.0.2",
+    "description": "LTA Slot",
+    "dependencies": {
+        "lta.handsome.base": "1.0.1",
+        "lta.touch": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.dragmove": "1.0.0",
+        "lta.effect": "1.0.0"
+    }
+}
